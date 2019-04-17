@@ -1,0 +1,54 @@
+.nav-container {
+	height: 75px;
+	width: 100%;
+	border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+
+.nav-brand {
+	float: left;
+	margin: 12px;
+}
+
+.nav-list {
+	float: right;
+}
+
+.nav-item {
+	display: block;
+	float: left;
+	margin: 12px;
+}
+
+.split {
+  border-right: 1px solid rgba(0,0,0,0.12);
+  padding-right: 12px;
+  margin-right: 0;
+}
+
+.log-out-button {
+  border-radius: 5px;
+  background: transparent;
+  border: 2px solid red;
+  height: 35px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.log-out {
+  margin-top: 4px;
+}
+
+.log-out-button:hover {
+  background: red;
+  color: #ffffff;
+  transition-duration: 0.15s;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.green a {
+	color: mediumseagreen;
+}

@@ -1,0 +1,9 @@
+.loginButton {
+	height: 45px;
+	background-color: mediumseagreen;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	width: 60%;
+	margin: 12px auto;
+}

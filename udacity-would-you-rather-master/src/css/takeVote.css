@@ -1,0 +1,48 @@
+.vote-container {
+	margin: 5% auto;
+	width: 350px;
+}
+
+.avatar-holder {
+	padding-bottom: 0px;
+}
+
+.vote-btn {
+	background-color: mediumseagreen;
+	height: 40px;
+	color: white;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.author {
+	padding-top: 20px;
+}
+
+.yourAnswer {
+	color: mediumseagreen;
+}
+
+.returnBtn {
+	height: 45px;
+	background-color: white;
+	border-radius: 5px;
+	margin: 20px;
+	font-weight: bold;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.green {
+	color: mediumseagreen;
+}
+
+/*
+<div>
+					<h1>You have already answered this question!</h1>
+					<h3>The answer given to this question was: {question[questionAnswer].text}</h3>
+						<hr/>
+					<h1>How did others answer this question?</h1>
+					<h3>A: {question.optionOne.text}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - {optionOnePercentage}% has answered this</h3>
+					<h3>B: {question.optionTwo.text}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - {optionTwoPercentage}% has answered this</h3>
+				</div>*/
